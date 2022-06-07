@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Water+Brush&display=swap');
+
+body {
+    background-color: darkgray;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}

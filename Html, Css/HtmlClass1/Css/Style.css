@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-content: center;
+}
+
+* {
+    background-color: white;
+}
+
+#Bayern:hover {
+    background-color: red;
+    padding-top: 1%;
+    border-color: gray;
+}
+
+#Psg:hover {
+    background-color: blue;
+    padding-top: 1%;
+    border-color: black;
+}
+
+#Real:hover {
+    background-color: gray;
+    padding-top: 1%;
+    border-color: black;
+}
+
+.Menu {
+    margin-right: 5%;
+}
