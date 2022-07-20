@@ -14,7 +14,7 @@ class Cuadrado(Figura2D):
         self.medidaLado = medidaLado
         
     def __calcularArea__(self):
-        return int(self.medidaLado * self.medidaLado)
+        print("Area: " , int(self.medidaLado * self.medidaLado))
     
     def __calcularPerimetro__(self):
-        return int(self.medidaLado * 4)
+        print("Perimetro: " , int(self.medidaLado * 4))

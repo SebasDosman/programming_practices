@@ -1,0 +1,47 @@
+Siglo XIX y primera mitad del XX
+La historia de la bioquímica como la conocemos hoy en día es prácticamente moderna; desde el siglo XIX se comenzó a direccionar una buena parte de la biología y la química a la creación de una nueva disciplina integradora: la química fisiológica o la bioquímica. Pero la aplicación de la bioquímica y su conocimiento probablemente comenzó hace 5000 años, con la producción de pan usando levaduras, en un proceso conocido como fermentación.
+
+Es difícil abordar la historia de la bioquímica, en cuanto que, es una mezcla compleja de química orgánica y biología, y en ocasiones, se hace complicado discernir entre lo exclusivamente biológico y lo exclusivamente químico orgánico y es evidente que la contribución a esta disciplina ha sido muy extensa. Aunque es cierto que existen datos experimentales que son básicos en la bioquímica.
+
+Se suele situar el inicio de la bioquímica en los descubrimientos en 1828 de Friedrich Wöhler que publicó un artículo acerca de la síntesis de urea, probando que los compuestos orgánicos pueden ser creados artificialmente, en contraste con la creencia comúnmente aceptada durante mucho tiempo, de que la generación de estos compuestos era posible solo en el interior de los seres vivos.
+
+La diastasa fue la primera enzima descubierta. En 1833 se extrajo de la solución de malta por Anselme Payen y Jean-François Persoz, dos químicos de una fábrica de azúcar francesa.1​
+
+A mediados del siglo XIX, Louis Pasteur demostró los fenómenos de isomería química existente entre las moléculas de ácido tartárico provenientes de los seres vivos y las sintetizadas químicamente en el laboratorio. También estudió el fenómeno de la fermentación y descubrió que intervenían ciertas levaduras, y por tanto no era exclusivamente un fenómeno químico como se había defendido hasta ahora (entre ellos el propio Liebig); así Pasteur escribió: «la fermentación del alcohol es un acto relacionado con la vida y la organización de las células de las levaduras, y no con la muerte y la putrefacción de las células». Además desarrolló un método de esterilización de la leche, el vino y la cerveza (pasteurización) y contribuyó enormemente a refutar la idea de la generación espontánea de los seres vivos.
+
+En 1869 se descubre la nucleína y se observa que es una sustancia muy rica en fósforo. Dos años más tarde, Albrecht Kossel concluye que la nucleína es rica en proteínas y contiene las bases púricas adenina y guanina y las pirimidínicas citosina y timina. En 1889 se aíslan los dos componentes mayoritarios de la nucleína:
+
+Proteínas (70 %)
+Sustancias de carácter ácido: ácidos nucleicos (30 %)
+En 1878 el fisiólogo Wilhelm Kühne acuñó el término enzima para referirse a los componentes biológicos desconocidos que producían la fermentación. La palabra enzima fue usada después para referirse a sustancias inertes tales como la pepsina.
+
+En 1897 Eduard Buchner comenzó a estudiar la capacidad de los extractos de levadura para fermentar azúcar a pesar de la ausencia de células vivientes de levadura. En una serie de experimentos en la Universidad Humboldt de Berlín, encontró que el azúcar era fermentado incluso cuando no había elementos vivos en los cultivos de células de levaduras. Llamó a la enzima que causa la fermentación de la sacarosa, “zimasa”. Al demostrar que las enzimas podrían funcionar fuera de una célula viva, el siguiente paso fue demostrar cuál era la naturaleza bioquímica de esos biocatalizadores. El debate fue extenso; muchos, como el bioquímico alemán Richard Willstätter, discrepaban de que la proteína fuera el catalizador enzimático, hasta que en 1926, James B. Sumner demostró que la enzima ureasa era una proteína pura y la cristalizó. La conclusión de que las proteínas puras podían ser enzimas fue definitivamente probada en torno a 1930 por John Howard Northrop y Wendell Meredith Stanley, quienes trabajaron con diversas enzimas digestivas como la pepsina, la tripsina y la quimotripsina.
+
+En 1903 Mijaíl Tswett inicia los estudios de cromatografía para separación de pigmentos.
+
+En torno a 1915 Gustav Embden y Otto Meyerhof realizan sus estudios sobre la glucólisis.
+
+En 1920 se descubre que en las células hay ADN y ARN y que difieren en el azúcar que forma parte de su composición: desoxirribosa o ribosa. El ADN reside en el núcleo. Unos años más tarde, se descubre que en los espermatozoides hay fundamentalmente ADN y proteínas, y posteriormente Feulgen descubre que hay ADN en los cromosomas con su tinción específica para este compuesto.
+
+En 1925 Theodor Svedberg demuestra que las proteínas son macromoléculas y desarrolla la técnica de ultracentrifugación analítica.
+
+En 1928, Alexander Fleming descubre la penicilina y desarrolla estudios sobre la lisozima.
+
+Richard Willstätter (en torno 1910) estudia la clorofila y comprueba la similitud que hay con la hemoglobina. Posteriormente Hans Fischer en torno a 1930, investiga la química de las porfirinas de las que derivan la clorofila o el grupo porfirínico de la hemoglobina. Consiguió sintetizar hemina y bilirrubina. Paralelamente Heinrich Otto Wieland formula teorías sobre las deshidrogenaciones y explica la constitución de muchas otras sustancias de naturaleza compleja, como la pteridina, las hormonas sexuales o los ácidos biliares.
+
+En la década de 1940, Melvin Calvin concluye el estudio del ciclo de Calvin en la fotosíntesis y Albert Claude la síntesis del ATP en las mitocondrias.
+
+En torno a 1945 Gerty Cori, Carl Cori, y Bernardo Houssay completan sus estudios sobre el ciclo de Cori.
+
+En 1953 James Dewey Watson y Francis Crick, gracias a los estudios previos con cristalografía de rayos X de ADN de Rosalind Franklin y Maurice Wilkins, y los estudios de Erwin Chargaff sobre apareamiento de bases nitrogenadas, deducen la estructura de doble hélice del ADN. En 1957, Matthew Meselson y Franklin Stahl demuestran que la replicación del ADN es semiconservativa.
+
+Segunda mitad del siglo XX
+En la segunda mitad del siglo XX, comienza la auténtica revolución de la bioquímica y la biología molecular moderna, especialmente gracias al desarrollo de las técnicas experimentales más básicas como la cromatografía, la centrifugación, la electroforesis, las técnicas radioisotópicas y la microscopía electrónica, y las técnicas más complejas como la cristalografía de rayos X, la resonancia magnética nuclear, la PCR (Kary Mullis), el desarrollo de la inmuno-técnicas.
+
+Desde 1950 a 1975 , se conocen en profundidad y detalle aspectos del metabolismo celular inimaginables hasta ahora (fosforilación oxidativa (Peter Dennis Mitchell), ciclo de la urea y ciclo de Krebs (Hans Adolf Krebs), así como otras rutas metabólicas), se produce toda una revolución en el estudio de los genes y su expresión; se descifra el código genético (Francis Crick, Severo Ochoa, Har Gobind Khorana, Robert W. Holley y Marshall Warren Nirenberg), se descubren las enzimas de restricción (finales de 1960, Werner Arber, Daniel Nathans y Hamilton Smith), la ADN ligasa (en 1972, Mertz y Davis) y finalmente en 1973 Stanley Cohen y Herbert Boyer producen el primer ser vivo recombinante, naciendo así la ingeniería genética, convertida en una herramienta poderosísima con la que se supera la frontera entre especies y con la que podemos obtener un beneficio hasta ahora impensable.
+
+En 1970, un argentino, Luis Federico Leloir, médico, bioquímico y farmacéutico recibió el Premio Nobel de Química por sus investigaciones sobre los nucleótidos de azúcar, y el rol que cumplen en la fabricación de los hidratos de carbono.2​
+
+En 1984, otro argentino, César Milstein, oriundo de la ciudad de Bahía Blanca, recibe el Premio Nobel de Medicina por sus investigaciones sobre anticuerpos monoclonales, hoy utilizados para tratar muchas enfermedades, incluidos algunos tipos de cáncer.3​
+
+De 1975 hasta principios del siglo XXI, comienza a secuenciarse el ADN (Allan Maxam, Walter Gilbert y Frederick Sanger), comienzan a crearse las primeras industrias biotecnológicas (Genentech), se aumenta la creación de fármacos y vacunas más eficaces, se eleva el interés por las inmunología y las células madres y se descubre la enzima telomerasa (Elizabeth Blackburn y Carol Greider). En 1989 se utiliza la biorremediación a gran escala en el derrame del petrolero Exxon Valdez en Alaska. Se clonan los primeros seres vivos, se secuencia el ADN de decenas de especies y se publica el genoma completo del hombre (Craig Venter, Celera Genomics y Proyecto Genoma Humano), se resuelven decenas de miles de estructuras proteicas y se publican en PDB, así como genes, en GenBank. Comienza el desarrollo de la bioinformática y la computación de sistemas complejos, que se constituyen como herramientas muy poderosas en el estudio de los sistemas biológicos. Se crea el primer cromosoma artificial y se logra la primera bacteria con genoma sintético (2007, 2009, Craig Venter). Se fabrican las nucleasas con dedos de zinc. Se inducen artificialmente células, que inicialmente no eran pluripotenciales, a células madre pluripotenciales (Shin'ya Yamanaka). Comienzan a darse los primeros pasos.

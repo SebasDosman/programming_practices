@@ -16,7 +16,7 @@ class Cubo(Figura3D):
         self.medidaLado = medidaLado
         
     def __calcularArea__(self):
-        return int(6 * math.pow(self.medidaLado, 2))
+        print("Area: " , int(6 * math.pow(self.medidaLado, 2)))
     
     def __calcularVolumen__(self):
-        return int(math.pow(self.medidaLado, 3))
+        print("Volumen: " , int(math.pow(self.medidaLado, 3)))

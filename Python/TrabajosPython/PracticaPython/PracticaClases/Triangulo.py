@@ -22,7 +22,7 @@ class Triangulo(Figura2D):
         self.altura = altura
         
     def __calcularArea__(self):
-        return int((self.base * self.altura) / 2)
+        print("Area" , int((self.base * self.altura) / 2))
     
     def __calcularPerimetro__(self):
         perimetro = 0
@@ -30,4 +30,5 @@ class Triangulo(Figura2D):
         for i in range(self.lados):
             medida = int(input("Digite la medida del lado \n"))
             perimetro = perimetro + medida
-        return perimetro
+        
+        print("Perimetro: " , perimetro)

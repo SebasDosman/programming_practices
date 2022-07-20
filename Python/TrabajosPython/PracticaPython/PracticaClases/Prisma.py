@@ -24,7 +24,7 @@ class Prisma(Figura3D):
         self.altura = altura
         
     def  __calcularArea__(self):
-        return int((self.base * 2) * ((self.base * self.altura )/ 2))       
+        print("Area: " , int((self.base * 2) * ((self.base * self.altura )/ 2)) )      
     
     def  __calcularVolumen__(self):
-        return int((1 / 3) * math.pow(self.base, 2) * self.altura)       
+        print("Volumen: " , int((1 / 3) * math.pow(self.base, 2) * self.altura))       

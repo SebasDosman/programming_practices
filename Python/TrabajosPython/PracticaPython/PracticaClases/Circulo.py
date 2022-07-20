@@ -15,7 +15,7 @@ class Circulo(Figura2D):
         self.radio = radio
         
     def __calcularArea__(self):
-        return int(math.pi * math.pow(self.radio, 2))
+        print("Area: " , int(math.pi * math.pow(self.radio, 2)))
     
     def __calcularPerimetro__(self):
-        return int(self.radio * 2 * math.pi)
+        print("Perimetro: " , int(self.radio * 2 * math.pi))

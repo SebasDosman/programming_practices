@@ -16,7 +16,7 @@ class Esfera(Figura3D):
         self.radio = radio
         
     def __calcularArea__(self):
-        return int(4 * math.pi * math.pow(self.radio, 2))
+        print("Area: " , int(4 * math.pi * math.pow(self.radio, 2)))
     
     def __calcularVolumen__(self):
-        return int((4 / 3) * math.pi * math.pow(self.radio, 3))
+        print("Volumen: " , int((4 / 3) * math.pi * math.pow(self.radio, 3)))

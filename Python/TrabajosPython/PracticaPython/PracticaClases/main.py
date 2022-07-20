@@ -1,43 +1,73 @@
+#Figuras 2D
 from Triangulo import Triangulo
 from Cuadrado import Cuadrado
 from Circulo import Circulo
 
+#Figuras 3D
 from Prisma import Prisma
 from Cubo import Cubo
 from Esfera import Esfera
 
+#Objetos
 triangulo = Triangulo(5, 5)
 print("Triangulo")
-print("Area: ", triangulo.__calcularArea__())
-print("Perimetro: ", triangulo.__calcularPerimetro__())
+triangulo.__calcularArea__()
+triangulo.__calcularPerimetro__()
 print("\n")
 
 cuadrado = Cuadrado(25)
 print("Cuadrado")
-print("Area: ", cuadrado.__calcularArea__())
-print("Perimetro: ", cuadrado.__calcularPerimetro__())
+cuadrado.__calcularArea__()
+cuadrado.__calcularPerimetro__()
 print("\n")
 
 circulo = Circulo(5)
 print("Circulo")
-print("Area: ", circulo.__calcularArea__())
-print("Perimetro: ", circulo.__calcularPerimetro__())
+circulo.__calcularArea__()
+circulo.__calcularPerimetro__()
 print("\n")
 
 prisma = Prisma(5, 5)
 print("Prisma")
-print("Area: ", prisma.__calcularArea__())
-print("Volumen: ", prisma.__calcularVolumen__())
+prisma.__calcularArea__()
+prisma.__calcularVolumen__()
 print("\n")
 
 cubo = Cubo(5)
 print("Cubo")
-print("Area: ", cubo.__calcularArea__())
-print("Volumen: ", cubo.__calcularVolumen__())
+cubo.__calcularArea__()
+cubo.__calcularVolumen__()
 print("\n")
 
 esfera = Esfera(5)
 print("Esfera")
-print("Area: ", esfera.__calcularArea__())
-print("Volumen: ", esfera.__calcularVolumen__())
+esfera.__calcularArea__()
+esfera.__calcularVolumen__()
 print("\n")
+
+#Diccionario de objetos
+figurasGeometricas = {
+    "Triangulo": triangulo, 
+    "Cuadrado": cuadrado, 
+    "Circulo": circulo, 
+    "Prisma": prisma,
+    "Cubo": cubo, 
+    "Esfera": esfera
+}
+
+#Lista de objetos
+figurasGeometricasArray = []
+figurasGeometricasArray.append(triangulo)
+figurasGeometricasArray.append(cuadrado)
+figurasGeometricasArray.append(circulo)
+figurasGeometricasArray.append(prisma)
+figurasGeometricasArray.append(cubo)
+figurasGeometricasArray.append(esfera)
+
+# print(figurasGeometricas)
+# print("\n")
+
+# print(figurasGeometricasArray)
+# print("\n")
+
+print(type(triangulo))
