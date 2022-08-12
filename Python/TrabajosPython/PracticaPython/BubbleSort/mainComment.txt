@@ -1,0 +1,65 @@
+
+
+    oddList = [51, 7, 33, 13, 79, 21]
+
+    __bubbleSort__( [51, 7, 33, 13, 79, 21] )
+
+    <-- Counters : i = 0; j = 0 -->
+    if (51 > 7) : true
+        oddList[0] = 7
+        oddList[1] = 51
+        [7, 51, 33, 13, 79, 21]
+
+    <-- Counters : i = 0; j = 1 -->
+    if (51 > 33) : true
+        oddList[1] = 33
+        oddList[2] = 51
+        [7, 33, 51, 13, 79, 21]
+
+    <-- Counters : i = 0; j = 2 -->
+    if (51 > 13) : true
+        oddList[2] = 13
+        oddList[3] = 51
+        [7, 33, 13, 51, 79, 21]
+
+    <-- Counters : i = 0; j = 3 -->
+    if (51 > 79) : false 
+
+    <-- Counters : i = 0; j = 4 -->
+    if (79 > 21) : true
+        oddList[4] = 21
+        oddList[5] = 79
+        [7, 33, 13, 51, 21, 79]
+
+    <-- Counters : i = 1; j = 0 -->
+    if (7 > 33) : false
+
+    <-- Counters : i = 1; j = 1 -->
+    if (33 > 13) : true
+        oddList[1] = 13
+        oddList[2] = 33
+        [7, 13, 33, 51, 21, 79]
+
+    <-- Counters : i = 1; j = 2 -->
+    if (33 > 51) : false
+
+    <-- Counters : i = 1; j = 3 -->
+    if (51 > 21) : true
+        oddList[3] = 21
+        oddList[4] = 51
+        [7, 13, 33, 21, 51, 79]
+
+    <-- Counters : i = 1; j = 4 -->
+    if (51 > 79) : false
+
+    <-- Counters : i = 2; j = 0 -->
+    if (7 > 33) : false
+
+    <-- Counters : i = 2; j = 1 -->
+    if (13 > 33) : false
+
+    <-- Counters : i = 2; j = 2 -->
+    if (33 > 21) : true
+        oddList[2] = 21 
+        oddList[3] = 33
+        [7, 13, 21, 33, 51, 79]

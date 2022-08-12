@@ -1,11 +1,15 @@
 /*
     ===== Código de TypeScript =====
 */
-let habilidades : string[] = ['Bash', 'Counter', 'Healing']
 
-const personaje = {
-    nombre: 'Strider', 
-    hp: 100,
-    habilidades: habilidades
-    
-}
+import { Producto, calculaISV() } from "./introduccion/DesestructuracionArgumentos";
+
+const carritoCompras : Producto[] = [{
+    desc: 'Telefono 1',
+    precio: 120
+},{
+    desc: 'Telefono 2',
+    precio: 150
+}]
+
+const [total, isv] = calculaISV(carritoCompras)

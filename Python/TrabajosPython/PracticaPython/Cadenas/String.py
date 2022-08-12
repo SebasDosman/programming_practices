@@ -1,3 +1,5 @@
+from ast import While
+from http.client import NON_AUTHORITATIVE_INFORMATION
 from numpy import character
 
 frase = "Curso de Python"
