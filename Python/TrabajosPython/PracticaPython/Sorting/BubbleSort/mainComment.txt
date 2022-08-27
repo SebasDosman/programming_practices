@@ -1,0 +1,202 @@
+<-- Bubble Sort -->
+oddList = [51, 7, 33, 13, 79, 21]
+
+__bubbleSort__( [51, 7, 33, 13, 79, 21] )
+
+<-- Counters : i = 0; j = 0 -->
+if (51 > 7) : true
+    oddList[0] = 7
+    oddList[1] = 51
+    [7, 51, 33, 13, 79, 21]
+
+<-- Counters : i = 0; j = 1 -->
+if (51 > 33) : true
+    oddList[1] = 33
+    oddList[2] = 51
+    [7, 33, 51, 13, 79, 21]
+
+<-- Counters : i = 0; j = 2 -->
+if (51 > 13) : true
+    oddList[2] = 13
+    oddList[3] = 51
+    [7, 33, 13, 51, 79, 21]
+
+<-- Counters : i = 0; j = 3 -->
+if (51 > 79) : false 
+
+<-- Counters : i = 0; j = 4 -->
+if (79 > 21) : true
+    oddList[4] = 21
+    oddList[5] = 79
+    [7, 33, 13, 51, 21, 79]
+
+<-- Counters : i = 1; j = 0 -->
+if (7 > 33) : false
+
+<-- Counters : i = 1; j = 1 -->
+if (33 > 13) : true
+    oddList[1] = 13
+    oddList[2] = 33
+    [7, 13, 33, 51, 21, 79]
+
+<-- Counters : i = 1; j = 2 -->
+if (33 > 51) : false
+
+<-- Counters : i = 1; j = 3 -->
+if (51 > 21) : true
+    oddList[3] = 21
+    oddList[4] = 51
+    [7, 13, 33, 21, 51, 79]
+
+<-- Counters : i = 1; j = 4 -->
+if (51 > 79) : false
+
+<-- Counters : i = 2; j = 0 -->
+if (7 > 33) : false
+
+<-- Counters : i = 2; j = 1 -->
+if (13 > 33) : false
+
+<-- Counters : i = 2; j = 2 -->
+if (33 > 21) : true
+    oddList[2] = 21 
+    oddList[3] = 33
+    [7, 13, 21, 33, 51, 79]
+
+
+
+<-- Bubble Sort Better -->
+oddList = [13, 3, 23, 43, 93, 73]
+
+__bubbleSort__( [13, 3, 23, 43, 93, 73] )
+
+control = true
+
+while : control = false
+
+<-- Counters : i = 0; j = 0; control = false -->
+if (13 > 3) : true
+    ddList[0] = 3 
+    oddList[1] = 13
+    [3, 13, 23, 43, 93, 73]
+
+<-- Counters : i = 0; j = 1; control = true -->
+if (13 > 23) : false
+
+<-- Counters : i = 0; j = 2; control = true -->
+if (23 > 43) : false
+
+<-- Counters : i = 0; j = 3; control = true -->
+if (43 > 93) : false
+
+<-- Counters : i = 0; j = 4; control = true -->
+if (93 > 73) : true
+    ddList[4] = 73 
+    oddList[5] = 93
+    [3, 13, 23, 43, 73, 93]
+
+while : control = false
+
+<-- Counters : i = 1; j = 0; control = false -->
+if (3 > 13) : false
+
+<-- Counters : i = 1; j = 1; control = false -->
+if (13 > 23) : false
+
+<-- Counters : i = 1; j = 2; control = false -->
+if (23 > 43) : false
+
+<-- Counters : i = 1; j = 3; control = false -->
+if (43 > 73) : false
+
+
+
+        <-- Bubble Sort Bidirectional -->
+        oddList = [31, 33, 5, 87, 19, 49]
+
+        __bubbleSort__( [31, 33, 5, 87, 19, 49] )
+
+        left = 0
+        right = 5
+        control = true
+
+        while : control = false
+
+        <-- Counters : i = 0; control = false --> 
+        if (31 > 33) : false 
+
+        <-- Counters : i = 1; control = true --> 
+        if (33 > 5) : true 
+            ddList[1] = 5
+            oddList[2] = 33
+            [31, 5, 33, 87, 19, 49]
+
+        <-- Counters : i = 2; control = true --> 
+        if (33 > 87) : false 
+
+        <-- Counters : i = 3; control = true --> 
+        if (87 > 19) : true 
+            ddList[3] = 19
+            oddList[4] = 87
+            [31, 5, 33, 19, 87, 49]
+
+        <-- Counters : i = 4; control = true --> 
+        if (87 > 49) : true 
+            ddList[4] = 49
+            oddList[5] = 87
+            [31, 5, 33, 19, 49, 87]
+
+        right = 4
+
+        <-- Counters : j = 4; control = true --> 
+        if (49 < 19) : false 
+
+        <-- Counters : j = 3; control = true --> 
+        if (19 < 33) : true 
+            ddList[3] = 33
+            oddList[2] = 19
+            [31, 5, 19, 33, 49, 87]
+
+        <-- Counters : j = 2; control = true --> 
+        if (19 < 5) : false 
+
+        <-- Counters : j = 1; control = true --> 
+        if (5 < 31) : true 
+            ddList[1] = 31
+            oddList[0] = 5
+            [5, 31, 19, 33, 49, 87]
+
+        left = 1
+
+        while : control = false
+
+        <-- Counters : i = 1; control = true --> 
+        if (31 > 19) : true 
+            ddList[1] = 19
+            oddList[2] = 31
+            [5, 19, 31, 33, 49, 87]
+
+        <-- Counters : i = 2; control = true --> 
+        if (31 > 33) : false 
+
+        <-- Counters : i = 3; control = true --> 
+        if (33 > 49) : false 
+
+        right = 3
+
+        <-- Counters : j = 3; control = true --> 
+        if (33 < 31) : false 
+
+        <-- Counters : j = 2; control = true --> 
+        if (31 < 19) : false 
+
+        left = 2
+
+        while : control = false 
+
+        <-- Counters : i = 2; control = false --> 
+        if (31 > 33) : false 
+
+        right = 2
+
+        
