@@ -13,7 +13,7 @@ const tableta : Producto = {
     precio: 150
 }
 
-const calculaISV = (productos : Producto[]) : [number, number] => {
+export const calculaISV = (productos : Producto[]) : [number, number] => {
     let total = 0;
 
     productos.forEach( ({ precio }) => {
@@ -25,5 +25,3 @@ const calculaISV = (productos : Producto[]) : [number, number] => {
 
 const articulos = [telefono, tableta];
 const [total, isv] = calculaISV(articulos);
-
-console.log('ISV: ', isv);
