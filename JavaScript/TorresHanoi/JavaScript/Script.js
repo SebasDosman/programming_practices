@@ -1,7 +1,7 @@
 let torre1 = 1;
 let torre2 = 2;
 let torre3 = 3;
-let discos = 3;
+let discos = 5;
 
 document.write("<h3>Torres String</h3>")
 
@@ -24,7 +24,7 @@ document.write("<h3>Torres Array</h3>")
 let array1 = [];
 let array2 = [];
 let array3 = [];
-let discos1 = 3; 
+let discos1 = 5; 
 
 iniciarArray1();
 torresHanoiArray(discos1, array1, array2, array3);
