@@ -1,4 +1,3 @@
-from collections import UserList
 from Menu import Menu
 from QueueClass import Queue
 from Data import user1, user2, user3, user4, user5, user6, user7, user8, user9, user10

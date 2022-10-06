@@ -1,5 +1,4 @@
 from Request import Request
-
 class User():
     name = ""
     lastName = ""
