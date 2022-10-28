@@ -70,10 +70,3 @@ console.log(" ");
 
 return Validacion(User);
 
-
-
-
-
-
-
-
