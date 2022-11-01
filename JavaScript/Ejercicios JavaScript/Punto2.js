@@ -69,4 +69,3 @@ if (User.acept_terms) {
 console.log(" ");
 
 return Validacion(User);
-
