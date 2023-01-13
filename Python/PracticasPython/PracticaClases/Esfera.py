@@ -1,5 +1,4 @@
 import math
-
 from Figura3D import Figura3D
 
 class Esfera(Figura3D):

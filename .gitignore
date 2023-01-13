@@ -1,2 +1,9 @@
 *.DS_Store
 *.jar
+*__pycache__
+/Java/ArbolLista/nbproject/private/
+/Java/ArbolLista/build/
+/Java/arbolesClase/build/
+/Java/arbolesClase/nbproject/private/
+/Java/ArbolBinario/nbproject/private/
+/Java/ArbolBinario/build/

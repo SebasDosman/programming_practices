@@ -21,9 +21,10 @@ cuadrado.__calcularArea__()
 cuadrado.__calcularPerimetro__()
 print("\n")
 
-circulo = Circulo(5)
+circulo1 = Circulo(5)
 print("Circulo")
 circulo.__calcularArea__()
+circulo.__set_vertices__(5)
 circulo.__calcularPerimetro__()
 print("\n")
 
@@ -64,10 +65,10 @@ figurasGeometricasArray.append(prisma)
 figurasGeometricasArray.append(cubo)
 figurasGeometricasArray.append(esfera)
 
-# print(figurasGeometricas)
-# print("\n")
+print(figurasGeometricas)
+print("\n")
 
-# print(figurasGeometricasArray)
-# print("\n")
+print(figurasGeometricasArray)
+print("\n")
 
 print(type(triangulo))

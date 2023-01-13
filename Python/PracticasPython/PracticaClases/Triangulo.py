@@ -12,8 +12,8 @@ class Triangulo(Figura2D):
     def __get_base__(self):
         return self.base
     
-    def __set_base__(self, base):
-        self.base = base
+    def __set_base__(self, base1):
+        self.base = base1
         
     def __get_altura__(self):
         return self.altura
