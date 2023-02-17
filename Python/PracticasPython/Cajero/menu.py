@@ -12,7 +12,11 @@ def __menu__(cashier : Cashier):
     print("4. Total")
     print("5. Exit")
     
-    option = int(input("Choose an option: "))
+    try:
+        option = int(input("Choose an option: "))
+    except ValueError:
+        print("You must enter only numbers")
+        exit()
     
     print("-----------------------")
     
@@ -21,17 +25,23 @@ def __menu__(cashier : Cashier):
             bills = [int(x) for x in input("Enter the bills: ").split()]
         except ValueError:
             print("You must enter only numbers")
+            exit()
             
         cashier.consignment(bills)
         
-        files.write_file_consigment(cashier.bills)
+        files.write_file_consignment(cashier.bills)
         
         print("\n", cashier.denomination_count())
         cashier.print_money()
         
         __menu__(cashier)
     elif option == 2:
-        amount = int(input("Enter the amount: "))
+        try:
+            amount = int(input("Enter the amount: "))
+        except ValueError:
+            print("You must enter only numbers")
+            exit()
+        
         withdrawal = cashier.withdrawal(amount)
         
         files.write_file_withdrawal(cashier.withdrawn)

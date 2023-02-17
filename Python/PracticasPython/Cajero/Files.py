@@ -1,4 +1,3 @@
-from Cashier import Cashier
 from array import array
 
 class Files(object):
@@ -14,10 +13,10 @@ class Files(object):
         finally:
             file.close()	
 
-    def write_file_consigment(self, consigment : array):
+    def write_file_consignment(self, consignment : array):
         try:
             with open(self.path, "a") as file:
-                file.write("Consigment (" + ("".join(str(consigment))) + ") \n")
+                file.write("Consignment (" + ("".join(str(consignment))) + ") \n")
         except OSError:
             print("File not found")
         finally:
