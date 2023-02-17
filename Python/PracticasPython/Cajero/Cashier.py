@@ -33,12 +33,20 @@ class Cashier:
     def total(self):
         deposited = sum(self.bills[i] * self.denominations[i] for i in range(len(self.denominations)))
         
-        return deposited - self.total_withdrawn
+        return deposited
     
     def print_money(self):
+        print("-----------------------")
+        
         for i in range(len(self.denominations)):
             print("Money: ", self.denominations[i], "- Quantity: ", self.bills[i])
+        
+        print("-----------------------")
     
     def print_withdrawal(self, withdrawal : array):
+        print("-----------------------")
+        
         for i in range(len(self.denominations)):
             print("Money: ", self.denominations[i], "- Quantity: ", withdrawal[i])
+        
+        print("-----------------------")
