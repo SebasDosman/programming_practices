@@ -18,10 +18,10 @@
                         <h1></h1>
                         <p class="text-paragraph"></p>
                     </div>
-                    <input type="number" min="1" max="10" class="container-input">
+                    <input id="userNumber" type="number" min="1" max="10" class="container-input">
                     <div class="chute container-buttons">
-                        <button onclick="userAttempt()" class="container-button">Try</button>
-                        <button class="container-button" id="restart" disabled>New game</button>
+                        <button onclick="startGame()" class="container-button">Try</button>
+                        <button onclick="restartGame()" class="container-button" id="restart" disabled>New game</button>
                     </div>
                 </div>
                 <img src="./img/ia.png" alt="Person`s icon" class="container-image" />
