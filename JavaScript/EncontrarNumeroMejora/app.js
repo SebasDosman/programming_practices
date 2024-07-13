@@ -1,5 +1,7 @@
+const MAX_NUMBER = 10;
 let attempts = 1;
 let secretNumber = 0;
+let numbers = [];
 
 
 const innerTextOnElement = (element, text) => {
@@ -8,7 +10,19 @@ const innerTextOnElement = (element, text) => {
 }
 
 const generateSecretNumber = () => {
-    return Math.floor(Math.random() * 10) + 1;
+    let number = Math.floor(Math.random() * MAX_NUMBER) + 1;
+    
+    if (numbers.length === MAX_NUMBER) {
+        innerTextOnElement('p', 'No more attempts! Restart the game to play again.');
+        return;
+    } else {
+        if (numbers.includes(number)) {
+            return generateSecretNumber();
+        } else {
+            numbers.push(number);
+            return number;
+        }
+    }
 }
 
 const clearTextOnElement = (id) => {
@@ -24,7 +38,7 @@ const restartValues = () => {
     attempts = 1;
 
     innerTextOnElement('h1', '"Find Number" Game');
-    innerTextOnElement('p', 'Guess the number between 1 and 10');
+    innerTextOnElement('p', `Guess the number between 1 and ${ MAX_NUMBER }`);
 }
 
 const startGame = () => {
